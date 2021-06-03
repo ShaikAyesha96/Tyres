@@ -1,0 +1,31 @@
+
+<div class="jumbotron">
+  <h1 class="text-center" style="padding: 2px;margin: 2px;background-color: rgb(187, 182, 182);">Register form</h1>
+</div>
+<!-- <div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+  <strong>Success !</strong> Your data added successfully!
+  <button (click)="closeAlert()" type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div> -->
+<form [formGroup]="regityres" (ngSubmit)="reguser()" >
+  <div class="mb-3">
+    <label>Email</label>
+    <input type="text" required class="form-control" placeholder="Enter vehicle name" id="vehicle"  name="vehicle"  formControlName="email">
+  </div>
+  <div class="mb-3">
+    <label>Password</label>
+    <input type="password" class="form-control" placeholder="Enter password" id="tyre"  name="tyre" formControlName="password">
+  </div>
+  <div class="mb-3">
+    <label>confirm password</label>
+    <input type="password" class="form-control" placeholder="Enter password" id="tyre"  name="tyre" formControlName="confirm password">
+  </div>
+  <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+  <button type="submit" class="registerbtn">Register</button>
+
+
+<div class="container signin">
+  <p>Already have an account? <a href="#">Sign in</a>.</p>
+   </div>
+  
+
+</form>
