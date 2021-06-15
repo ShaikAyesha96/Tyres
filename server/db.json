@@ -1,0 +1,66 @@
+{
+  "tyres": [
+    {
+      "id": 1,
+      "vehicle": "bajaj",
+      "tyre": "mrf",
+      "mobile": "9440961419",
+      "address": "nellore",
+      "email": "cat@gmail.com"
+    },
+    {
+      "id": 2,
+      "vehicle": "yamaha",
+      "tyre": "radial",
+      "mobile": "8096701185",
+      "address": "hyderadab",
+      "email": "aish@gmail.com"
+    },
+    {
+      "id": 3,
+      "vehicle": "apachi",
+      "tyre": "mrf",
+      "mobile": "8500135171",
+      "address": "tirupathi",
+      "email": "ashu@gmail.com"
+    },
+    {
+      "vehicle": "lorry",
+      "tyre": "suv",
+      "mobile": "394415486456",
+      "address": "hfbfiesj",
+      "email": "bantu@gmail.com",
+      "id": 4
+    },
+    {
+      "vehicle": "cycle",
+      "tyre": "tubeless",
+      "mobile": "436683593",
+      "Address": null,
+      "email": "kuthrn@gmail.com",
+      "id": 5
+    },
+    {
+      "vehicle": "bmw",
+      "tyre": "mrf",
+      "mobile": "445187",
+      "address": "tfhefgseu",
+      "email": "hegeb@gmail.com",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "email": "gfyseruse@gmail.com",
+      "password": "123456",
+      "confirmpassword": "",
+      "id": 1
+    },
+    {
+      "email": "aye@gmail.com",
+      "password": "123456",
+      "confirmpassword": "",
+      "id": 2
+    }
+  ]
+}
